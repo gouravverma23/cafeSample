@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# The Daily Grind ☕
 
-# Run and deploy your AI Studio app
+A modern, responsive website for an artisanal café and roastery. Designed to showcase specialty brews, seasonal bakery selections, customer reviews, and direct ordering.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/69decd58-cf11-4c65-b84f-bc1f1fc8a49a
+## ✨ Features
 
-## Run Locally
+- **Interactive Hero Animation**: Smooth frame-by-frame visual experience on scroll.
+- **Curated Menu**: Categorized artisanal drinks, seasonal brews, and freshly baked pastries.
+- **Customer Reviews**: Testimonial showcase highlighting genuine guest experiences.
+- **Location & Hours**: Embedded Google Maps view, opening hours, and contact details.
+- **Direct Ordering**: One-click WhatsApp desk integration for quick reservations and orders.
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile screens.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Framework**: [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite](https://vite.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Motion](https://motion.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- `npm`
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gouravverma23/cafeSample.git
+   cd cafeSample
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
