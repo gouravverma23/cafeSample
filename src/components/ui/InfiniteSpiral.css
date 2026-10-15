@@ -1,0 +1,56 @@
+.infinite-spiral {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  overflow: hidden;
+  isolation: isolate;
+  background: transparent;
+}
+
+.infinite-spiral__stage {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  background: transparent;
+}
+
+.infinite-spiral__item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: var(--infinite-spiral-card-width);
+  height: var(--infinite-spiral-card-height);
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  border-radius: var(--infinite-spiral-card-radius);
+  background: #FDFBF7;
+  box-shadow: 0 16px 32px -4px rgba(33, 19, 13, 0.18), 0 4px 12px rgba(33, 19, 13, 0.08);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, opacity, filter;
+  text-decoration: none;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.infinite-spiral__item:hover {
+  border-color: #BC5A36;
+  box-shadow: 0 22px 42px -4px rgba(188, 90, 54, 0.32), 0 6px 16px rgba(33, 19, 13, 0.12);
+}
+
+.infinite-spiral__image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .infinite-spiral__item {
+    transition: none;
+  }
+}

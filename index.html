@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daily Grind – Artisanal Café & Roastery</title>
+    <meta name="description" content="Artisanal specialty coffee, house-baked pastries, and slow living in Jubilee Hills. Discover our seasonal brews, directions, and reviews." />
+    <meta property="og:title" content="The Daily Grind – Artisanal Café & Roastery" />
+    <meta property="og:description" content="Artisanal specialty coffee, house-baked pastries, and slow living in Jubilee Hills. Discover our seasonal brews, directions, and reviews." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Daily Grind" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Daily Grind – Artisanal Café & Roastery" />
+    <meta name="twitter:description" content="Artisanal specialty coffee, house-baked pastries, and slow living in Jubilee Hills." />
+
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD for Cafe / Coffee Shop -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "The Daily Grind",
+      "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=1200",
+      "description": "Artisanal specialty coffee, single-origin roasts, and fresh bakery.",
+      "telephone": "+91 98765 43210",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 42, Road No. 36, Jubilee Hills",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "postalCode": "500033",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 17.4319,
+        "longitude": 78.4073
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "08:30",
+          "closes": "22:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#FDFBF7] text-[#21130D] antialiased selection:bg-[#BC5A36] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

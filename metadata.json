@@ -1,0 +1,6 @@
+{
+  "name": "The Daily Grind – Artisanal Café",
+  "description": "A modern, premium responsive café website featuring artisanal coffees, seasonal bakery menu, interactive Google Maps, Google reviews, and direct WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
